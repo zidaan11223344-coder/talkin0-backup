@@ -1,0 +1,35 @@
+متغيرات الاستضافة المطلوبة:
+BOT_ID=اسم_حساب_البوت
+BOT_PWD=كلمة_مرور_البوت
+BOT_MASTER=اسم_حساب_الماستر
+
+متغيرات اختيارية:
+BOT_DATA_DIR=admin_data
+API_BASE_URL=https://chatp.net/api?
+WS_HOSTS=chatp.net
+WS_PATHS=/server
+SOCKET_PORT=5335
+DEVICE_ID=talkin-admin-bot
+DEVICE_MODEL=444$samsung-SM-G998B$35
+SDK=35
+LANGUAGE=en
+GROUP_TO_JOIN=اسم_الغرفة
+ROOMS=غرفة1,غرفة2
+INVITE_SENDER_NAME=السفير
+INVITE_MESSAGE_TEMPLATE=يوجد معجب مخفي في {room}
+INVITE_SEND_INTERVAL_SECONDS=0.4
+WS_HEARTBEAT_INTERVAL=25
+WS_MAX_MESSAGE_BYTES=1008
+
+ملاحظة: متغيرات لوحة الاستضافة لها الأولوية على ملف .env لأن تحميل dotenv مضبوط على override=False.
+أوامر الحماية:
+As@on  تفعيل حظر الحسابات التي يصرّح السيرفر بأنها بلا عضوية في الغرفة الحالية.
+As@off إيقاف الحماية في الغرفة الحالية.
+ap@on / ap@off خاصة بحماية الحسابات بلا صورة كما كانت سابقاً.
+
+نسخ GitHub الاحتياطي:
+GITHUB_TOKEN=توكن Fine-grained بصلاحية Contents Read and write للمستودع المحدد
+GITHUB_REPO_URL=https://github.com/zidaan11223344-coder/talkin0-backup.git (مضبوط افتراضياً داخل البوت)
+BACKUP_INTERVAL_SECONDS=300 (مزامنة كل 5 دقائق بعد نجاح أول نسخ يدوي)
+
+لا ترفع ملف .env إلى GitHub ولا ترسل قيمة GITHUB_TOKEN لأحد.

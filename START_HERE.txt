@@ -1,0 +1,5 @@
+Altare settings:
+PY_FILE=bot.py
+REQUIREMENTS_FILE=requirements.txt
+
+Copy .env.example to .env and edit BOT_ID, BOT_PWD, BOT_MASTER, GROUP_TO_JOIN.
